@@ -239,9 +239,9 @@ const Dashboard = () => {
                 {<h5>{passwordSuccess}</h5>}
                 {<h5>{profileUpdated}</h5>}
                 <user-card>
-                  <h2>User</h2>
-                  <h1>First Name: {userDetails.firstName}</h1>
-                  <h1>Last Name: {userDetails.lastName}</h1>
+                  <h1 className="UserHead">User</h1>
+                  <h2>First Name: {userDetails.firstName}</h2>
+                  <h2>Last Name: {userDetails.lastName}</h2>
                 </user-card>
               </main>
             )}

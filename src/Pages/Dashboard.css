@@ -169,9 +169,12 @@ h5{
   align-items: center;
 }
 h2{
-  color: #0056b3;
+  color: #000000;
   font-size: 24px;
   margin-bottom: 14px;
+}
+.UserHead{
+  color: #0056b3;
 }
 
 
