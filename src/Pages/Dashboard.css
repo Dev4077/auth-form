@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #4070f4;
+  overflow: hidden;
+  
+}
+
+.navbar h2 {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding-left: 14px;
+  text-decoration: none;
+  font-size: 47px;
+  padding-top: 5px;
+  margin-top: 14px;
+}
+
+.navbar button {
+  float: right;
+  display: flex;
+  background-color: red;
+  border: 0.1px;
+  padding: 14px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 14px;
+  border-radius: 6px;
+}
+
+.navbar button:hover{
+  background: #f10e5a;
+}
+
+.navbar h2:hover {
+  cursor: pointer;
+  color: rgb(221, 210, 210);
+}
+
+@media screen and (max-width: 600px) {
+  .navbar h2, .navbar button {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+.container{
+  margin: 0;
+ 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.container h1 {
+  margin-bottom: 10px;
+  align-items: center; 
+}
+
+label{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container input[type="text"] {
+  width: 200px; 
+  padding: 8px;
+  margin-bottom: 10px; 
+}
+
+/* Style for the navbar */
+.navbar {
+ 
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #4070f4;
+  color: white;
+}
+
+.navbar button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  
+}
+
+.navbar button:hover {
+  background-color: #0056b3;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+.mainDashBoard{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.mainDashBoard{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin-top: 43px
+}
+
+p {
+  color: red;
+  font-size: 0.8rem;
+  padding-left: 77px;
+}
+
+h5{
+  color: rgb(6, 144, 50);
+  margin: 14px;
+  font-size: large;
+  align-items: center;
+}
+h2{
+  color: #0056b3;
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+
+#contact h3{
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="password"]
+{
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover
+{
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+
+main {
+  margin: 50px;
+  /* height: 80vh; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  color: black;
+  
+}
+
+user-card {
+  padding: 30px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+  border-radius: 10px;
+  min-width: 304px; 
+  cursor: pointer;
+}
+
+user-card:hover {
+  box-shadow: 0px 10px 30px rgba(0,0,0,.3);
+  transition: 300ms ease;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  box-sizing: inherit;
+
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+#contact input:focus,
+
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
